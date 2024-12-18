@@ -1,0 +1,69 @@
+@import "../imports.css";
+
+body {
+    background: rgb(223,215,234);
+    background: -moz-linear-gradient(0deg, rgba(223,215,234,1) 0%, rgba(253,236,173,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(223,215,234,1) 0%, rgba(253,236,173,1) 100%);
+    background: linear-gradient(0deg, rgba(223,215,234,1) 0%, rgba(253,236,173,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dfd7ea",endColorstr="#fdecad",GradientType=1);
+    background-attachment: fixed;
+}
+
+.login-form-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: fit-content;
+}
+
+.login-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 488px;
+    height: 488px;
+
+    padding: 24px;
+
+    background: url("../assets/images/login-form.png"); /* The path from the future compiled CSS file from src/compiled-css */
+    background-size: cover;
+
+    border-radius: 12px;
+
+    filter: var(--shadow);
+
+    & > h2 {
+        text-transform: uppercase;
+
+        & > span {
+            background-color: rgba(252, 217, 91, 0.5);
+            padding-top: 4px;
+        }
+    }
+}
+
+.form-background {
+    width: fit-content;
+    height: fit-content;
+
+    background: url("../assets/images/svg/login-form-background.svg") no-repeat;
+    background-size: cover;
+
+    border-radius: 12px;
+
+    & > div.form {
+        justify-content: center;
+
+        width: 488px;
+        height: 488px;
+
+        background: var(--white-opacity);
+        backdrop-filter: blur(40px);
+
+        border-radius: 12px;
+        border: 2px solid var(--light-stroke);
+        filter: var(--shadow);
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="164 115 180 252" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="134" y="121" width="6" height="6"/>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 3.999992, 0)">
+    <title>Logo</title>
+    <g style="" transform="matrix(4.487195, 0, 0, 4.487195, -153.634936, -1388.389059)">
+      <title>Atom</title>
+      <ellipse style="stroke-width: 1.4788px;" cx="90" cy="370" rx="5" ry="5"/>
+      <ellipse style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 1.4788px;" cx="90" cy="370" rx="10" ry="20"/>
+      <ellipse style="stroke: rgb(0, 0, 0); fill: none; transform-box: fill-box; transform-origin: 50% 50%; stroke-width: 1.4788px;" cx="-172.616" cy="-362.119" rx="10" ry="20" transform="matrix(0.573576, -0.819152, 0.819152, 0.573576, 262.735453, 732.456603)"/>
+      <ellipse style="stroke: rgb(0, 0, 0); fill: none; transform-origin: 130px 370.266px; stroke-width: 1.4788px;" cx="130" cy="370.266" rx="10" ry="20" transform="matrix(0.573577, 0.819152, -0.819152, 0.573577, -40.214216, -0.281306)"/>
+    </g>
+    <g style="" transform="matrix(1.0625, 0, 0, 1.0625, 112.875345, 87.432062)">
+      <title>Hat</title>
+      <path style="" d="M 46.235 62.145 L 129.058 28.263 L 211.882 62.145 L 178 73.439 L 178 69.674 C 164.823 48.969 93.294 48.969 80.117 69.674 L 80.117 73.439 L 46.235 62.145 Z"/>
+      <path style="" d="M 82 106.379 L 82 74.379 C 100.448 55.93 157.671 55.93 176.117 74.379 L 176.117 106.379 C 151.647 68.732 106.47 68.732 82 106.379 Z"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 1.88235px; transform-box: fill-box; transform-origin: 50% 50%;" x1="55.647" y1="96.027" x2="55.647" y2="62.616" transform="matrix(-1, 0, 0, -1, -0.000001, -0.000009)"/>
+      <ellipse style="" cx="55.646" cy="97.91" rx="2.824" ry="2.824"/>
+      <path style="" d="M 54.303 99.792 C 51.896 99.792 52.694 108.734 50.941 108.734 C 52.694 111.87 58.966 111.87 60.353 108.734 C 58.966 108.734 59.426 99.792 57.252 99.792 L 54.303 99.792 Z"/>
+    </g>
+  </g>
+</svg>

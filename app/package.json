@@ -1,0 +1,41 @@
+{
+  "name": "kpi-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-watch:css": "node commands/buildWatchCss/buildWatch.cjs",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "postcss-font-magician": "node commands/postcssFontMagician.js",
+    "build-watch-file:css": "node commands/buildWatchCss/buildWatchFile.js",
+    "build-watch-dir:css": "node commands/buildWatchCss/buildWatchDir.js"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss-custom-properties": "^13.3.10",
+    "postcss-font-magician": "^4.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-nested": "^6.0.1",
+    "vite": "^5.2.0"
+  }
+}

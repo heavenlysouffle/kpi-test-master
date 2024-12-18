@@ -1,0 +1,91 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
+}
+
+h1 {
+    margin: 0;
+
+    font-family: 'Kharkiv Tone', serif;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0;
+
+    &.decor {
+        font-family: 'Kharkiv Tone', serif;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    &.regular {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+h3 {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+h4 {
+    margin: 0;
+
+    &.logo {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    &.menu-option {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+h5 {
+    margin: 0;
+}
+
+.body-text {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    &.bold {
+        font-weight: 700;
+    }
+}
+
+.button-text {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.caption {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media (max-width: 600px) {
+    .body-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

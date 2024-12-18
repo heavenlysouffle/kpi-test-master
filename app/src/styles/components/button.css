@@ -1,0 +1,27 @@
+@import "../imports.css";
+
+.button {
+    &.filled {
+        box-sizing: border-box;
+
+        display: block;
+
+        min-width: 88px;
+        max-width: 250px;
+        min-height: 42px;
+
+        padding: 8px 16px;
+
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+
+        border-radius: 6px;
+        border: none;
+
+        color: var(--white);
+
+        &.black {
+            background: var(--black);
+        }
+    }
+}
